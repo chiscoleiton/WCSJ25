@@ -2,5 +2,5 @@
 
 footer {margin-top: 0;}
 
-.home main {margin-top: 0;}
-.home main h1 {display: none;}
+.home main {margin-top: 0 !important;}
+.home main h1.wp-block-post-title {display: none;}
