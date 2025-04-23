@@ -1,3 +1,6 @@
 /* --------------------------------------------- Estilos Generales ----- */
 
 footer {margin-top: 0;}
+
+.home main {margin-top: 0;}
+.home main h1 {display: none;}
