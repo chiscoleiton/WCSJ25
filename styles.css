@@ -4,5 +4,5 @@ footer {margin-top: 0;}
 
 .home main {margin-top: 0 !important;}
 .home main h1.wp-block-post-title {display: none;}
-.home main div.is-layout-constrained {margin-top: 0; margin-bottom: 0;}
+.home main div.is-layout-constrained {padding-top: 0; padding-bottom: 0;}
 .home main div.is-layout-constrained .entry-content {margin-block-start: 0;}
