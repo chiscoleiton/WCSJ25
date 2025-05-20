@@ -8,4 +8,5 @@ footer {margin-top: 0;}
 .home main div.is-layout-constrained .entry-content {margin-block-start: 0;}
 
 
+.page main {margin-top: 0 !important;}
 .page main h1.wp-block-post-title {display: none;}
