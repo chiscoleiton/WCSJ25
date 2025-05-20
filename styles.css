@@ -6,3 +6,6 @@ footer {margin-top: 0;}
 .home main h1.wp-block-post-title {display: none;}
 .home main div.is-layout-constrained {padding-top: 0 !important; padding-bottom: 0 !important;}
 .home main div.is-layout-constrained .entry-content {margin-block-start: 0;}
+
+
+.page main h1.wp-block-post-title {display: none;}
