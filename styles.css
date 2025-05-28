@@ -25,6 +25,7 @@ footer {margin-top: 0;}
 
 .confetti-container {
 	width: 100%;
+	min-width: 1920px;
 	height: 1080px;
 	position: fixed;
 	top: 0;
