@@ -10,3 +10,208 @@ footer {margin-top: 0;}
 
 .page main {margin-top: 0 !important;}
 .page main h1.wp-block-post-title {display: none;}
+
+
+/* --------------------------------------------- Confeti ----- */
+/*body {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: transparent;
+}*/
+
+.confetti-container {
+	width: 100%;
+	height: 1080px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+
+.confetti {
+	position: absolute;
+	top: -20px;
+}
+
+@keyframes confetti-fall {
+	0% {
+		top: -20px;
+		transform: rotate(0deg);
+	}
+	
+	100% {
+		top: 1080px;
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes confetti-sway {
+	0%, 100% {
+		transform: translateX(0);
+	}
+	
+	50% {
+		transform: translateX(100px);
+	}
+}
+
+/* Confeti con los colores especificados y posiciones */
+.confetti:nth-child(1) {
+	left: 2.5%;
+	background-color: #005683;
+	animation: confetti-fall 5s linear infinite, confetti-sway 3s ease-in-out infinite;
+}
+
+.confetti:nth-child(2) {
+	left: 7.5%;
+	background-color: #F7C126;
+	animation: confetti-fall 7s linear infinite, confetti-sway 4s ease-in-out infinite;
+}
+
+.confetti:nth-child(3) {
+	left: 12.5%;
+	background-color: #E25F50;
+	animation: confetti-fall 6s linear infinite, confetti-sway 3.5s ease-in-out infinite;
+}
+
+.confetti:nth-child(4) {
+	left: 17.5%;
+	background-color: #353434;
+	animation: confetti-fall 8s linear infinite, confetti-sway 4.5s ease-in-out infinite;
+}
+
+.confetti:nth-child(5) {
+	left: 22.5%;
+	background-color: #A5B73B;
+	animation: confetti-fall 5.5s linear infinite, confetti-sway 3.2s ease-in-out infinite;
+}
+
+.confetti:nth-child(6) {
+	left: 27.5%;
+	background-color: #005683;
+	animation: confetti-fall 7.5s linear infinite, confetti-sway 4.2s ease-in-out infinite;
+}
+
+.confetti:nth-child(7) {
+	left: 32.5%;
+	background-color: #F7C126;
+	animation: confetti-fall 6.5s linear infinite, confetti-sway 3.7s ease-in-out infinite;
+}
+
+.confetti:nth-child(8) {
+	left: 37.5%;
+	background-color: #E25F50;
+	animation: confetti-fall 5.8s linear infinite, confetti-sway 3.4s ease-in-out infinite;
+}
+
+.confetti:nth-child(9) {
+	left: 42.5%;
+	background-color: #353434;
+	animation: confetti-fall 7.2s linear infinite, confetti-sway 4.1s ease-in-out infinite;
+}
+
+.confetti:nth-child(10) {
+	left: 47.5%;
+	background-color: #A5B73B;
+	animation: confetti-fall 6.2s linear infinite, confetti-sway 3.6s ease-in-out infinite;
+}
+
+.confetti:nth-child(11) {
+	left: 52.5%;
+	background-color: #005683;
+	animation: confetti-fall 5.3s linear infinite, confetti-sway 3.1s ease-in-out infinite;
+}
+
+.confetti:nth-child(12) {
+	left: 57.5%;
+	background-color: #F7C126;
+	animation: confetti-fall 7.3s linear infinite, confetti-sway 4.3s ease-in-out infinite;
+}
+
+.confetti:nth-child(13) {
+	left: 62.5%;
+	background-color: #E25F50;
+	animation: confetti-fall 6.3s linear infinite, confetti-sway 3.8s ease-in-out infinite;
+}
+
+.confetti:nth-child(14) {
+	left: 67.5%;
+	background-color: #353434;
+	animation: confetti-fall 8.2s linear infinite, confetti-sway 4.6s ease-in-out infinite;
+}
+
+.confetti:nth-child(15) {
+	left: 72.5%;
+	background-color: #A5B73B;
+	animation: confetti-fall 5.7s linear infinite, confetti-sway 3.3s ease-in-out infinite;
+}
+
+.confetti:nth-child(16) {
+	left: 77.5%;
+	background-color: #005683;
+	animation: confetti-fall 7.7s linear infinite, confetti-sway 4.4s ease-in-out infinite;
+}
+
+.confetti:nth-child(17) {
+	left: 82.5%;
+	background-color: #F7C126;
+	animation: confetti-fall 6.7s linear infinite, confetti-sway 3.9s ease-in-out infinite;
+}
+
+.confetti:nth-child(18) {
+	left: 87.5%;
+	background-color: #E25F50;
+	animation: confetti-fall 5.9s linear infinite, confetti-sway 3.5s ease-in-out infinite;
+}
+
+.confetti:nth-child(19) {
+	left: 92.5%;
+	background-color: #353434;
+	animation: confetti-fall 7.4s linear infinite, confetti-sway 4.2s ease-in-out infinite;
+}
+
+.confetti:nth-child(20) {
+	left: 97.5%;
+	background-color: #A5B73B;
+	animation: confetti-fall 6.4s linear infinite, confetti-sway 3.7s ease-in-out infinite;
+}
+
+/* Círculos */
+.confetti:nth-child(2n) {
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+}
+
+/* Rectángulos verticales */
+.confetti:nth-child(4n) {
+	width: 8px;
+	height: 24px;
+	border-radius: 2px;
+}
+
+/* Rectángulos horizontales */
+.confetti:nth-child(4n+1) {
+	width: 24px;
+	height: 8px;
+	border-radius: 2px;
+}
+
+/* Cuadrados pequeños */
+.confetti:nth-child(3n) {
+	width: 12px;
+	height: 12px;
+	border-radius: 2px;
+}
+
+/* Rectángulos diagonales */
+.confetti:nth-child(5n) {
+	width: 20px;
+	height: 10px;
+	border-radius: 2px;
+	transform: rotate(45deg);
+}
