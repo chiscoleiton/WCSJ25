@@ -12,6 +12,7 @@ footer {margin-top: 0;}
 .page main h1.wp-block-post-title {display: none;}
 
 .section-top {z-index: -999;}
+.cta-ticket {z-index: 99;}
 
 
 /* --------------------------------------------- Confeti ----- */
