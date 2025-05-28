@@ -11,6 +11,8 @@ footer {margin-top: 0;}
 .page main {margin-top: 0 !important;}
 .page main h1.wp-block-post-title {display: none;}
 
+.section-top {z-index: -999;}
+
 
 /* --------------------------------------------- Confeti ----- */
 /*body {
@@ -31,6 +33,7 @@ footer {margin-top: 0;}
 	top: 0;
 	left: 0;
 	overflow: hidden;
+	z-index: -99;
 }
 
 .confetti {
