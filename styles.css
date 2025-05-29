@@ -28,6 +28,10 @@ footer {margin-top: 0;}
     text-decoration: none;
 }
 
+.tix-tickets-list .tix-column-description {
+    padding-bottom: 24px;
+}
+
 table.tix_tickets_table.tix-tickets-list {
     width: 100%;
     flex-direction: row;
@@ -41,10 +45,6 @@ table.tix_tickets_table.tix-tickets-list thead th{
     font-weight: 500;
     text-transform: uppercase;
     padding: 0.5rem 0;
-}
-
-table.tix_tickets_table tr {
-    padding-bottom: 25px;
 }
 
 
