@@ -29,7 +29,6 @@ footer {margin-top: 0;}
 }
 
 table.tix_tickets_table.tix-tickets-list thead th
-Specificity: (0,2,3)
  {
     background: var(--wp--preset--color--accent-3);
     color: var(--wp--preset--color--base);
