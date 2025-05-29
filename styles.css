@@ -43,8 +43,8 @@ table.tix_tickets_table.tix-tickets-list thead th{
     padding: 0.5rem 0;
 }
 
-.page-slug-entradas .tix_tickets_table tr {
-    padding-bottom: 15px;
+table.tix_tickets_table tr {
+    padding-bottom: 25px;
 }
 
 
