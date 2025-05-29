@@ -14,6 +14,20 @@ footer {margin-top: 0;}
 /*.section-top {z-index: -999;}*/
 .cta-ticket {z-index: 99;}
 
+#tix input {
+    background-color: var(--wp--preset--color--accent-3) !important;
+    border-width: 0;
+    color: var(--wp--preset--color--base);
+    font-family: var(--wp--preset--font-family--lexend);
+    font-size: var(--wp--preset--font-size--medium);
+    line-height: inherit;
+    padding-top: 1rem;
+    padding-right: 2.25rem;
+    padding-bottom: 1rem;
+    padding-left: 2.25rem;
+    text-decoration: none;
+}
+
 
 /* --------------------------------------------- Confeti ----- */
 /*body {
