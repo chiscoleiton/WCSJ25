@@ -28,8 +28,13 @@ footer {margin-top: 0;}
     text-decoration: none;
 }
 
-table.tix_tickets_table.tix-tickets-list thead th
- {
+table.tix_tickets_table.tix-tickets-list {
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+table.tix_tickets_table.tix-tickets-list thead th{
     background: var(--wp--preset--color--accent-3);
     color: var(--wp--preset--color--base);
     font-size: 1.25rem;
