@@ -60,6 +60,7 @@ table.tix_tickets_table.tix-tickets-list thead th{
 	top: 0;
 	left: 0;
 	overflow: hidden;
+	z-index: -99;
 }
 
 .confetti {
