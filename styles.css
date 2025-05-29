@@ -11,8 +11,11 @@ footer {margin-top: 0;}
 .page main {margin-top: 0 !important;}
 .page main h1.wp-block-post-title {display: none;}
 
-/*.section-top {z-index: -999;}*/
+
 .cta-ticket {z-index: 99;}
+
+
+/* --------------------------------------------- Entradas ----- */
 
 #tix input {
     background-color: var(--wp--preset--color--accent-3) !important;
@@ -48,15 +51,6 @@ table.tix_tickets_table.tix-tickets-list thead th{
 
 
 /* --------------------------------------------- Confeti ----- */
-/*body {
-	margin: 0;
-	padding: 0;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	min-height: 100vh;
-	background: transparent;
-}*/
 
 .confetti-container {
 	width: 100%;
@@ -66,7 +60,6 @@ table.tix_tickets_table.tix-tickets-list thead th{
 	top: 0;
 	left: 0;
 	overflow: hidden;
-	/*z-index: -99;*/
 }
 
 .confetti {
