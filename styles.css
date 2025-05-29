@@ -11,8 +11,8 @@ footer {margin-top: 0;}
 .page main {margin-top: 0 !important;}
 .page main h1.wp-block-post-title {display: none;}
 
-/*.section-top {z-index: -999;}
-.cta-ticket {z-index: 99;}*/
+/*.section-top {z-index: -999;}*/
+.cta-ticket {z-index: 99;}
 
 
 /* --------------------------------------------- Confeti ----- */
