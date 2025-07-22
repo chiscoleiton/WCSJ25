@@ -52,8 +52,9 @@ table.tix_tickets_table.tix-tickets-list thead th{
 /* --------------------------------------------- Mediaqueries ----- */
 
 @media only screen and (max-width: 425px) {	
-	.wapuu-suscribe {
-		max-width: 50%;
+	.wapuu-suscribe img {
+	    width: 50%;
+	    margin: 0 auto;
 	}
 }
 
