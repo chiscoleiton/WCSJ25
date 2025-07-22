@@ -49,6 +49,14 @@ table.tix_tickets_table.tix-tickets-list thead th{
     padding: 0.5rem 0;
 }
 
+/* --------------------------------------------- Mediaqueries ----- */
+
+@media only screen and (max-width: 425px) {	
+	.wapuu-suscribe {
+		max-width: 50%;
+	}
+}
+
 
 /* --------------------------------------------- Confeti ----- */
 
