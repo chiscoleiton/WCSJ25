@@ -51,11 +51,40 @@ table.tix_tickets_table.tix-tickets-list thead th{
 
 /* --------------------------------------------- Mediaqueries ----- */
 
-@media only screen and (max-width: 425px) {	
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
 	.wapuu-suscribe img {
 	    width: 50% !important;
 	    margin: 0 auto;
 	}
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+	.wapuu-suscribe img {
+	    width: 50% !important;
+	    margin: 0 auto;
+	}
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
 }
 
 
