@@ -51,6 +51,14 @@ table.tix_tickets_table.tix-tickets-list thead th{
 
 /* --------------------------------------------- Mediaqueries ----- */
 
+@media only screen and (max-width: 425px) {
+	.wapuu-suscribe img {
+	    width: 50% !important;
+	    margin: 0 auto;
+	}
+	
+}
+
 /* ----------- iPhone X ----------- */
 
 /* Portrait and Landscape */
