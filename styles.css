@@ -49,6 +49,45 @@ table.tix_tickets_table.tix-tickets-list thead th{
     padding: 0.5rem 0;
 }
 
+/* --------------------------------------------- Agenda ----- */
+
+.tabs {
+  width: 100%;
+  margin: 2em 0;
+}
+.tabs input[type="radio"] {
+  display: none;
+}
+.tabs label {
+  padding: 10px 20px;
+  cursor: pointer;
+  background: #eee;
+  margin-right: 2px;
+  border-radius: 5px 5px 0 0;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+.tabs label:hover {
+  background: #ddd;
+}
+.tabs .tab-content {
+  display: none;
+  padding: 20px;
+  border: 1px solid #eee;
+  border-top: none;
+  background: #fafafa;
+  border-radius: 0 0 5px 5px;
+}
+.tabs input[type="radio"]:checked + label {
+  background: #fff;
+  border-bottom: 1px solid #fff;
+}
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3 {
+  display: block;
+}
+
 /* --------------------------------------------- Mediaqueries ----- */
 
 @media only screen and (max-width: 425px) {
