@@ -34,6 +34,10 @@ h4.wordcamp-schedule__session-title {
 	justify-content: center !important;
 }
 
+.wordcamp-schedule__day {
+    background-color: var(--wp--preset--color--base);
+}
+
 .wordcamp-schedule__day span {
 	font-size: 1.2rem !important;
 }
